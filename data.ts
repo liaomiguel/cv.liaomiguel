@@ -33,7 +33,7 @@ export const RESUME_DATA = {
   },
   social: {
     email: "liaomiguel@gmail.com",
-    github: "github.com/soulrata",
+    github: "github.com/liaomiguel",
     location: "Buenos Aires, Argentina"
   },
   summary: "Desarrollador Full Stack Senior con más de 15 años de experiencia, especializado en arquitecturas backend robustas utilizando PHP y Laravel (versiones 11/12). Experto en la digitalización de procesos institucionales complejos, diseño de sistemas seguros y optimización de alto rendimiento. Capacidad probada para liderar ciclos completos de desarrollo, desde la arquitectura de base de datos hasta la integración de APIs críticas (Renaper, Google, Moodle) y despliegue en entornos Linux.",
