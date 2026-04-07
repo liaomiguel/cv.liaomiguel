@@ -13,8 +13,8 @@ interface ResumeHeaderProps {
 
 export const ResumeHeader: React.FC<ResumeHeaderProps> = ({ profile, social }) => {
   return (
-    <header className="bg-slate-850 text-white p-8 md:p-12 print:bg-slate-800 print:text-white print:p-8">
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+    <header className="bg-slate-850 text-white p-8 md:p-12 print:bg-slate-900 print:text-white print:p-10">
+      <div className="flex flex-col md:flex-row print:flex-row justify-between items-start md:items-center gap-6">
         <div>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-2 text-white">
             {profile.name}

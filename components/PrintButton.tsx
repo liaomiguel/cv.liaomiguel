@@ -9,10 +9,11 @@ export const PrintButton: React.FC = () => {
   return (
     <button
       onClick={handlePrint}
-      className="flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-900 text-white p-4 rounded-full shadow-lg transition-all hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-amber-400"
-      title="Descargar PDF / Imprimir"
+      className="flex items-center justify-center gap-3 bg-amber-600 hover:bg-amber-700 text-white px-6 py-4 rounded-full shadow-2xl transition-all hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-amber-300 group"
+      title="Generar CV en 1 solo A4 (PDF)"
     >
-      <Printer className="w-6 h-6" />
+      <Printer className="w-6 h-6 group-hover:rotate-12 transition-transform" />
+      <span className="font-bold tracking-wide">IMPRIMIR A4</span>
     </button>
   );
 };
